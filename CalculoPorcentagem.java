@@ -14,7 +14,7 @@ public class CalculoPorcentagem {
     }
 
     if (pessoa.teveContatoComPessoasSintomaticas.equals("SIM")) {
-      pessoa.porcentagemInfeccao += 300;
+      pessoa.porcentagemInfeccao += 30;
     }
   }
 }
