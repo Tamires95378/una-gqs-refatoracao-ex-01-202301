@@ -13,7 +13,7 @@ class Programa {
     pessoa.coletaNome(scanner);
     pessoa.coletaIdade(pessoa, scanner);
 
-    erroTentativas = mensagem.realizaPerguntaVacinaEmDia(pesssoa);
+    erroTentativas = mensagem.realizaPerguntaVacinaEmDia(pessoa);
 
     validacao.validacaoDasProximasPerguntas(pessoas);
 
