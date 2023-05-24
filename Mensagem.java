@@ -110,7 +110,7 @@ public class Mensagem {
   }
 
   public void imprimirMensagemErro() {
-    System.out.println("Não foi possível realizar o ZZZZZZZZZZ." +
-        "Gentileza ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ.");
+    System.out.println("Não foi possível realizar o Não foi possível realizar o diagnóstico." +
+        "Gentileza procurar ajuda médica caso apareça algum sintoma.");
   }
 }
