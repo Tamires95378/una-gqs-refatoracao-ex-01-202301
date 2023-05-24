@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Pessoa {
-  // public String nome;
+  public String nome;
   public int idade;
   public String cartaoVacinaEmDia;
   public String teveSintomasRecentemente;
