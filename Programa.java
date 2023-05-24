@@ -17,7 +17,7 @@ class Programa {
 
     validacao.validacaoDasProximasPerguntas(pessoa);
 
-    validacao.calcularValidacaoFinal(erroTentativass);
+    validacao.calcularValidacaoFinal(erroTentativas);
 
     // scanner.close();
   }
