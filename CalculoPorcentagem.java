@@ -10,7 +10,7 @@ public class CalculoPorcentagem {
     }
 
     if (pessoa.teveSintomasRecentemente.equals("SIM")) {
-      pessoa.porcentagemInfeccao += 300;
+      pessoa.porcentagemInfeccao += 30;
     }
 
     if (pessoa.teveContatoComPessoasSintomaticas.equals("SIM")) {
