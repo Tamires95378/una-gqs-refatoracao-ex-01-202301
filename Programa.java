@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 class Programa {
+  
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     boolean erroTentativas = false;

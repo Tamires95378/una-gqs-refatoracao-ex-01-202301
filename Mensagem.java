@@ -113,4 +113,8 @@ public class Mensagem {
     System.out.println("Não foi possível realizar o Não foi possível realizar o diagnóstico." +
         "Gentileza procurar ajuda médica caso apareça algum sintoma.");
   }
+
+  public boolean realizaPerguntaVacinaEmDia(Pessoa pessoa) {
+    return false;
+  }
 }
