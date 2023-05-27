@@ -40,4 +40,7 @@ public class Validacao {
       // scanner);
     }
   }
+
+  public void validacaoDasProximasPerguntas(Pessoa pessoa) {
+  }
 }
