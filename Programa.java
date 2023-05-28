@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 class Programa {
-  
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     boolean erroTentativas = false;
@@ -14,11 +13,11 @@ class Programa {
     pessoa.coletaNome(scanner);
     pessoa.coletaIdade(pessoa, scanner);
 
-    erroTentativas = mensagem.realizaPerguntaVacinaEmDia(pessoa);
+    erroTentativas = mensagem.realizaPerguntaVacinaEmDia(pessoa,scanner);
 
-    validacao.validacaoDasProximasPerguntas(pessoa);
+    validacao.validacaoDasProximasPerguntas(mensagem,pessoa,erroTentativas,scanner);
 
-    validacao.calcularValidacaoFinal(erroTentativas);
+    validacao.calcularValidacaoFinal(pessoa, mensagem, erroTentativas);
 
     scanner.close();
   }
